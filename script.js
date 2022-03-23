@@ -46,13 +46,13 @@ const addMoney = (money, index)=> {
     return (
     `<div class="card">
         <div class="data">
-            <div class="">${money.title}</div>
-            <div class="">${money.sub}</div>
-            <div class="">${money.text}</div>
+            <div class="sub">${money.sub}</div>
+            <div class="title">${money.title}</div>
+            <div class="text">${money.text}</div>
         </div>
         <button class="saveButton">
             Save
-            <span class="material-icons">
+            <span id="arrow" class="material-icons">
             arrow_forward
             </span>
         </button>
